@@ -10,8 +10,8 @@ navigate to Google, and search for the error message you copied!
 First, make sure you have __pyperclip__ installed by running the following command in your terminal or command prompt: pip install pyperclip
 Next, modify the batch file (search_google.bat) as follows (make sure to use pythonw.exe and not python.exe):
 
-@echo off
-@ <your_python_path\pythonw.exe> "<path_to_search_google.py>" %*
+@echo off <br>
+@ <your_python_path\pythonw.exe> "<path_to_search_google.py>" %* <br>
 
 Replace <path_to_search_google.py> with the full path to the search_google.py Python script that you have created for this tool.
 
