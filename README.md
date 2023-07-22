@@ -16,8 +16,13 @@ Finally, add the directory path where the batch file and the Python script exist
 This step will allow you to run the batch file from any location in your terminal or command prompt.
 
 Once you've completed these steps, you're ready to go! Now, when you encounter an error, simply copy the error message,
-press Windows + R, type the name of the batch file (without the .bat extension aka type: search), <br>
-<br> ![img_run](https://github.com/ilyesBoukraa/automate_error_searching/blob/master/Run.png) <br><br>
+press Windows + R, type the name of the batch file (without the .bat extension aka type: search), 
+<br><br>
+<!-- ![img_run](https://github.com/ilyesBoukraa/automate_error_searching/blob/master/Run.png) --->
+<div style="text-align: center;">
+    <img src="[path_to_your_image.jpg](https://github.com/ilyesBoukraa/automate_error_searching/blob/master/Run.png)" alt="Image Run">
+</div> 
+<br><br>
 and the program will automatically open your default web browser and perform a Google search for the error message.
 
 # Please note that: 
