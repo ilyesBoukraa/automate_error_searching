@@ -22,5 +22,8 @@ press Windows + R, type the name of the batch file (without the .bat extension a
 <br><br>
 and the program will automatically open your default web browser and perform a Google search for the error message.
 
+<br><br>![batch file](https://github.com/ilyesBoukraa/automate_error_searching/blob/master/searched_an_error.png)<br><br>
+
+
 # Please note that: 
 this tool is a basic implementation, and you can further enhance it to suit your specific needs and preferences.
