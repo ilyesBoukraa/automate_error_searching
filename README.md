@@ -1,7 +1,7 @@
 # automate_error_searching
 As programmers, we often find ourselves facing bugs that we don't understand,
 especially in low-level languages such as C. During my learning process, 
-I thought of creating a tool to make our lives easier. With this tool, 
+I thought of creating a tool to make our lives easier (my life actually). With this tool, 
 you only need to copy the error message and then press Windows + R. Next,
 type the batch file name (without .bat extension), and the program will open your default web browser,
 navigate to Google, and search for the error message you copied!
