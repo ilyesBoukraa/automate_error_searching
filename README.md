@@ -11,13 +11,17 @@ First, make sure you have __pyperclip__ installed by running the following comma
 Next, modify the batch file (search_google.bat) as follows (make sure to use pythonw.exe and not python.exe):
 
 @echo off <br>
-@ <your_python_path\pythonw.exe> "<path_to_search_google.py>" %* <br>
+@<your_python_path\pythonw.exe> "<path_to_search_google.py>" %* <br>
 
 Replace <path_to_search_google.py> with the full path to the search_google.py Python script that you have created for this tool.
 
-Finally, add the directory path where the batch file and the Python script exist into your system's PATH environment variable. This step will allow you to run the batch file from any location in your terminal or command prompt.
+Finally, add the directory path where the batch file and the Python script exist into your system's PATH environment variable.
+This step will allow you to run the batch file from any location in your terminal or command prompt.
 
-Once you've completed these steps, you're ready to go! Now, when you encounter an error, simply copy the error message, press Windows + R, type the name of the batch file (without the .bat extension aka type: search), and the program will automatically open your default web browser and perform a Google search for the error message.
+Once you've completed these steps, you're ready to go! Now, when you encounter an error, simply copy the error message,
+press Windows + R, type the name of the batch file (without the .bat extension aka type: search), 
+<br> ![img_run](https://github.com/ilyesBoukraa/automate_error_searching/blob/master/Run.png) <br>
+and the program will automatically open your default web browser and perform a Google search for the error message.
 
 # Please note that: 
 this tool is a basic implementation, and you can further enhance it to suit your specific needs and preferences.
