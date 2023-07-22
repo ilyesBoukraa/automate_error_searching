@@ -9,10 +9,7 @@ navigate to Google, and search for the error message you copied!
 # To get the program working, you'll need to make some changes. 
 First, make sure you have __pyperclip__ installed by running the following command in your terminal or command prompt: pip install pyperclip
 Next, modify the batch file (search_google.bat) as follows (make sure to use pythonw.exe and not python.exe):
-
-@echo off <br>
-@<your_python_path\pythonw.exe> "<path_to_search_google.py>" %* <br>
-
+<br><br>![batch file](https://github.com/ilyesBoukraa/automate_error_searching/blob/master/batch_file.png)<br><br>
 Replace <path_to_search_google.py> with the full path to the search_google.py Python script that you have created for this tool.
 
 Finally, add the directory path where the batch file and the Python script exist into your system's PATH environment variable.
